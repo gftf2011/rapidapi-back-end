@@ -19,9 +19,9 @@ class MailController {
             },
         });
 
-        await Email.create(email);
+        const emails = await Email.create({ email });
 
-        return res.json({ ok: true });
+        return res.json(emails);
     }
 }
 
