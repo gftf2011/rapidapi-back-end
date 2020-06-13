@@ -1,10 +1,14 @@
+const { config } = require('dotenv');
+
+config();
+
 module.exports = {
     host: 'smtp.gmail.com',
     port: 587,
     secure: false,
     auth: {
-      user: 'gftf2011@gmail.com',
-      pass: '97141645a@',
+      user: `${process.env.GOOGLE_USER}`,
+      pass: `${process.env.GOOGLE_PASSWORD}`,
     },
     tls: {
       rejectUnauthorized: false,
