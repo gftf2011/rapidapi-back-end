@@ -12,7 +12,7 @@ class ReviewsController {
             qs: {limit: '20', currency: 'USD', lang: 'en_US', location_id},
             headers: {
               'x-rapidapi-host': 'tripadvisor1.p.rapidapi.com',
-              "x-rapidapi-key": "fa72e3c144msh6a1c4199179cb42p1816f1jsn51feda4ef7c7",
+              'x-rapidapi-key': '26140af1d5msh00474a58e1c1593p1381d5jsne13bf4aa9324',
               useQueryString: true
             }
         };
