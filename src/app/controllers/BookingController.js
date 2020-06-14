@@ -12,7 +12,7 @@ class BookingController {
             qs: {currency: 'USD', ta, c: '0', d1, o1, dd1},
             headers: {
               'x-rapidapi-host': 'tripadvisor1.p.rapidapi.com',
-              'x-rapidapi-key': '26140af1d5msh00474a58e1c1593p1381d5jsne13bf4aa9324',
+              'x-rapidapi-key': '1397ac49e3msh7db6364537ccfdfp163568jsne5ddf29f76a5',
               useQueryString: true
             }
         };
